@@ -1,2 +1,48 @@
 # Rock-Paper-Scissors-game.
 Made using HTML, CSS and JavaScript.
+<!--HTML code-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors Game</title>
+    
+    <link rel="stylesheet" type="text/css" href="rps.css">
+    </head>
+<body>
+    <header>
+    <h1> Rock Paper Scissors</h1>
+    </header>
+   <marquee direction="right" behavior="alternate" >Game On! </marquee>
+    <div class="score-board">
+    <div id="user-lable" class="badge">user</div>
+    <div id="computer-lable" class="badge">comp</div>
+        <span id="user-score">0</span> :
+        <span id="computer-score">0</span>
+    
+    </div>
+   
+    <div class="result">
+        <p>Paper covers rock, you win!</p>
+    
+    </div>
+    <div class="choices">
+       <div class="choice" id="r"><img src="rocknew1.jpg" alt="rock">
+        </div>
+        <div class="choice" id="p"><img src="papernew.jpg" alt="paper"></div>
+        <div class="choice" id="s"><img src="scissorsnew.jpg" alt="scissors"></div>
+        
+    
+    
+    </div>
+    
+   <marquee direction="left" behavior="alternate">  
+    <p>Make your choice.</p>
+    
+    </marquee>
+    
+    <script src="project.js" charset="utf-8"></script>
+    
+    
+    </body>
+
+</html>
