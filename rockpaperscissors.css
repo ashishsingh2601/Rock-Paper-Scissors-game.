@@ -1,0 +1,111 @@
+<!--CSS code starts here-->
+
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
+*{
+    margin:0;
+    padding:0;
+
+    
+    
+}
+
+header{
+    background-color: white;
+    
+}
+header > h1{
+    font-family: germania one;
+    text-align: center;
+    margin:0px;
+    font-size:50px;
+}
+
+body{
+    
+    background-color: dimgrey;
+}
+.score-board{
+    margin: 20px 200px;
+    text-align: center;
+    border: 3px solid white;
+    padding: 10px 10px;
+    font-family: germania one;
+    position:relative;
+}
+
+.result{
+    
+    font-family: germania one;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    
+}
+.badge{
+    background-color: brown;
+    margin: 0px 30px;
+    
+    }
+#user-lable{
+    position:absolute;
+    left:-50px;
+    top:10px;
+    
+}
+
+#computer-lable{
+    position:absolute;
+    right:-50px;
+    
+    
+}
+marquee{
+    font-size: 30px;
+    font-family: germania one;
+    color= 
+    
+}
+.choices{
+    text-align: center;
+    margin-top:0px;
+    padding: 30px;
+    position: sticky;
+}
+
+.choice{
+    display: inline-block;
+    border-radius: 70px;
+    padding: 30px;
+    border:3px solid;
+    
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: white;
+    
+    
+}
+.select{
+    font-size: 20px;
+    text-align: center;
+    font-family: germania one;
+    
+}
+.green-glow{
+    border:3px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b431;
+    
+    
+}
+.red-glow{
+    
+    border: 3px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+.grey-glow{
+    
+    border: 3px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
