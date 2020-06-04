@@ -1,3 +1,5 @@
+//jshint esversion:6
+
 let userScore = 0;
 let computerScore = 0;
 let attempts = 0;
